@@ -1,0 +1,277 @@
+@charset "utf-8";
+header  {
+    color: #FFFFFF;
+	font-family: Proxima Nova, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+body{
+    font-family: Proxima Nova, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+    margin: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    width: 100%;
+    color: #cacaca;
+}
+#banner1 {
+    width: 100%;
+    margin-top: 0px;
+    vertical-align: middle;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    float: left;
+    -webkit-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s;
+    transition: all .5s ease 0s;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: content-box;
+    background-position: center top;
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,0.00) 0%,rgba(10,21,30,0.85) 78.04%,rgba(10,20,30,1.00) 100%), url(../images/bannerWhiplash.jpg);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,0.00) 0%,rgba(10,21,30,0.85) 78.04%,rgba(10,20,30,1.00) 100%), url(../images/bannerWhiplash.jpg);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,0.00) 0%,rgba(10,21,30,0.85) 78.04%,rgba(10,20,30,1.00) 100%), url(../images/bannerWhiplash.jpg);
+    background-image: linear-gradient(180deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,0.00) 0%,rgba(10,21,30,0.85) 78.04%,rgba(10,20,30,1.00) 100%), url(../images/bannerWhiplash.jpg);
+}
+#banner2 {
+    width: 100%;
+    margin-top: 0px;
+    vertical-align: middle;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    float: left;
+    -webkit-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s;
+    transition: all .5s ease 0s;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: content-box;
+    background-position: center center;
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(10,20,30,1.00) 100%), url(../images/bannerBladerunner2.jpg);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(10,20,30,1.00) 100%), url(../images/bannerBladerunner2.jpg);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(10,20,30,1.00) 100%), url(../images/bannerBladerunner2.jpg);
+    background-image: linear-gradient(180deg,rgba(255,255,255,0.00) 0%,rgba(10,20,30,1.00) 100%), url(../images/bannerBladerunner2.jpg);
+}
+#banner3 {
+    width: 100%;
+    margin-top: 0px;
+    vertical-align: middle;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    float: left;
+    -webkit-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s;
+    transition: all .5s ease 0s;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: content-box;
+    background-position: center 51%;
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(10,20,30,1.00) 100%), url(../images/bannerJaws.jpg);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(10,20,30,1.00) 100%), url(../images/bannerJaws.jpg);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(10,20,30,1.00) 100%), url(../images/bannerJaws.jpg);
+    background-image: linear-gradient(180deg,rgba(255,255,255,0.00) 0%,rgba(10,20,30,1.00) 100%), url(../images/bannerJaws.jpg);
+}
+#banner4 {
+    width: 100%;
+    margin-top: 0px;
+    vertical-align: middle;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    float: left;
+    -webkit-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s;
+    transition: all .5s ease 0s;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: content-box;
+    background-position: center 15%;
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(10,20,30,1.00) 100%), url(../images/bannerLalaland.jpg);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(10,20,30,1.00) 100%), url(../images/bannerLalaland.jpg);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(10,20,30,1.00) 100%), url(../images/bannerLalaland.jpg);
+    background-image: linear-gradient(180deg,rgba(255,255,255,0.00) 0%,rgba(10,20,30,1.00) 100%), url(../images/bannerLalaland.jpg);
+}
+#opacity {
+    float: left;
+    width: 100%;
+    background-color: hsla(0,0%,0%,0.10);
+}
+
+
+#banner-left  {
+    width: 65px;
+    float: left;
+    padding-left: 10%;
+    padding-right: 2%;
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+header img   {
+    width: 36px;
+    opacity: 1;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    vertical-align: middle;
+    -webkit-transition: all 0.1s ease 0s;
+    -o-transition: all 0.1s ease 0s;
+    transition: all 0.1s ease 0s;
+
+}
+header img:hover {
+    -webkit-opacity: .5;
+    opacity: 0.8;
+}
+#banner-left img   {
+    width: 100%;
+	opacity: 1;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    vertical-align: middle;
+    -webkit-transition: all 0.1s ease 0s;
+    -o-transition: all 0.1s ease 0s;
+    transition: all 0.1s ease 0s;
+
+}
+#banner-left img:hover {
+    -webkit-opacity: .5;
+    opacity: 1;
+}
+
+#banner-center {
+    width: 50%;
+    float: left;
+    padding-right: 0%;
+    vertical-align: middle;
+    padding-bottom: 13px;
+    padding-top: 13px;
+}
+#banner-right {
+    width: 20%;
+    float: right;
+    padding-right: 10%;
+    vertical-align: middle;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    cursor: default;
+}
+#banner-right nav ul {
+    margin: 0px;
+    float: right;
+    padding: 0px;
+    vertical-align: middle;
+}
+#banner-center nav ul {
+	margin: 0px;
+    float: left;
+    padding: 0px;
+    vertical-align: middle;
+}
+
+nav li {
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+}
+nav li a {
+    font-size: 1.00em;
+    text-decoration: none;
+    color: #cacaca;
+    padding: 10px;
+    text-indent: 0px;
+    font-weight: bold;
+}
+
+.footer {
+    background-image: -webkit-linear-gradient(39deg,rgba(17,14,19,1.00) 0%,rgba(9,18,27,1.00) 100%);
+    background-image: -moz-linear-gradient(39deg,rgba(17,14,19,1.00) 0%,rgba(9,18,27,1.00) 100%);
+    background-image: -o-linear-gradient(39deg,rgba(17,14,19,1.00) 0%,rgba(9,18,27,1.00) 100%);
+    background-image: linear-gradient(51deg,rgba(17,14,19,1.00) 0%,rgba(9,18,27,1.00) 100%);
+    width: 80%;
+    padding-left: 10%;
+    float: left;
+    clear: both;
+    padding-right: 10%;
+    padding-top: 13px;
+    padding-bottom: 18px;
+}
+.footer ul {
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 15px;
+	margin: 0px;
+	width: 100%;
+}
+.footer li {
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer li a {
+    font-size: 1.00em;
+    text-decoration: none;
+    color: #cacaca;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    text-indent: 0px;
+    font-weight: bold;
+}
+.footer .footerList  {
+    width: 60%;
+    float: left;
+    margin-left: 0px;
+}
+.footer .footerIcons {
+	width: 40%;
+	float: right;
+	text-align: right;
+}
+.footer img {
+	width: 50px;
+	float: left;
+	padding-left: 4px;
+}
+.footer p {
+    color: #747474;
+    font-family: Proxima Nova, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    float: left;
+    padding-left: 15px;
+    padding-top: 0px;
+}
+.footerIcons img  {
+    padding: 5px;
+    width: 25px;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+    float: right;
+    margin-right: 5px;
+}
+.footerIcons  img:hover  {
+    background-color: hsla(350,64%,39%,1.00);
+	-webkit-transition: all 0.1s ease-in-out 0s;
+    -o-transition: all 0.1s ease-in-out 0s;
+    transition: all 0.1s ease-in-out 0s;
+}

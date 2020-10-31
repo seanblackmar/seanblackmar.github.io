@@ -1,0 +1,235 @@
+@charset "utf-8";
+body {
+    background-color: #202D33;
+}
+
+
+h1  {
+    font-size: 62px;
+    font-weight: 800;
+    color: hsla(0,0%,100%,1.00);
+    margin-top: 150px;
+    padding-bottom: 55px;
+    text-align: center;
+    letter-spacing: 0px;
+}
+.filters {
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 80%;
+    padding-top: 0px;
+}
+
+
+
+
+input[type=text], select {
+    width: 30%;
+    padding: 8px 12px;
+    margin-top: 30px;
+    margin-right: 33px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+    display: inline-block;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: hsla(0,0%,0%,0.00);
+    color: hsla(0,0%,100%,1.00);
+}
+input[type=text2], select {
+    width: 30%;
+    padding: 8px 12px;
+    margin-top: 30px;
+    margin-right: 33px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+    display: inline-block;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: hsla(0,0%,0%,0.00);
+    color: hsla(0,0%,100%,1.00);
+}
+.filters  img  {
+    -webkit-transition: all .1s ease-in 0s;
+    -o-transition: all .1s ease-in 0s;
+    transition: all .1s ease-in 0s;
+    float: right;
+    margin-top: 30px;
+    margin-left: 6px;
+}
+.filters img:hover {
+    background-color: #2E4355;
+    border-radius: 4px;
+}
+.infoButtons .infoBtn img {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    width: 16px;
+    float: left;
+    position: relative;
+    left: 8px;
+}
+
+
+.filters .sort {
+    float: right;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.sectionAll {
+
+}
+.details  {
+    float: left;
+    background-color: #0a141e;
+    padding-bottom: 1%;
+}
+.detailsAlt  {
+    float: left;
+    padding-top: 0px;
+    padding-bottom: 1%;
+}
+
+
+
+.detailsLeft {
+    width: 39%;
+    float: left;
+    padding-right: 1%;
+    padding-left: 10%;
+}
+
+
+
+
+.detailsRight {
+    width: 39%;
+    float: left;
+    padding-left: 4%;
+    padding-right: 7%;
+}
+.sectionAll .title  {
+    float: left;
+    width: 100%;
+}
+.sectionAll h6 {
+    width: auto;
+    float: left;
+    color: hsla(0,0%,100%,1.00);
+    font-weight: 800;
+    font-size: 26px;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+.sectionAll .imdb   {
+    width: 40px;
+    float: left;
+    margin-left: 20px;
+    padding-top: 0px;
+    margin-top: 23px;
+    -webkit-transition: all 0s linear 0s;
+    -o-transition: all 0s linear 0s;
+    transition: all 0s linear 0s;
+    border: thin solid hsla(0,0%,100%,0);
+}
+.sectionAll .imdb:hover   {
+    width: 40px;
+    float: left;
+    margin-left: 20px;
+    padding-top: 0px;
+    margin-top: 23px;
+	-webkit-transition: all 0s linear 0s;
+    -o-transition: all 0s linear 0s;
+    transition: all 0s linear 0s;
+    border: thin solid hsla(0,0%,100%,.50);
+	border-radius: 3px;
+	opacity: .80;
+}
+.sectionAll .imageDetails  {
+    float: left;
+    width: 140px;
+    padding-right: 10px;
+}
+.sectionAll .poster  {
+    width: 100%;
+    -webkit-transition: all 0s linear 0s;
+    -o-transition: all 0s linear 0s;
+    transition: all 0s linear 0s;
+    border: thin solid hsla(0,0%,100%,0);
+    height: 200px;
+}
+.sectionAll .poster:hover  {
+    width: 100%;
+	-webkit-transition: all 0s linear 0s;
+    -o-transition: all 0s linear 0s;
+    transition: all 0s linear 0s;
+    border: thin solid hsla(0,0%,100%,.50);
+}
+.sectionAll h4 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 12px;
+    width: auto;
+    text-align: center;
+
+}
+
+
+.sectionAll .info  {
+    float: left;
+    width: calc(70% - 170px);
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.sectionAll .infoButtons {
+    float: left;
+    width: 125px;
+    text-align: center;
+}
+.sectionAll .description {
+    float: left;
+    width: 100%;
+}
+.sectionAll p {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+
+
+
+.sectionAll .options {
+    width: 30%;
+    float: right;
+}
+.sectionAll h3 {
+    margin-top: 5px;
+    font-weight: 500;
+    color: hsla(0,0%,100%,1.00);
+    margin-bottom: 5px;
+}
+.sectionAll .infoDetails {
+    float: left;
+}
+
+.sectionAll .loadMore {
+    float: left;
+    width: 100%;
+    text-align: center;
+    background-image: -webkit-linear-gradient(44deg,rgba(23,25,53,1.00) 0%,rgba(18,42,43,1.00) 100%);
+    background-image: -moz-linear-gradient(44deg,rgba(23,25,53,1.00) 0%,rgba(18,42,43,1.00) 100%);
+    background-image: -o-linear-gradient(44deg,rgba(23,25,53,1.00) 0%,rgba(18,42,43,1.00) 100%);
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-weight: bold;
+}

@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Add</title>
+<link href="css/add.css" rel="stylesheet" type="text/css">
+<link href="css/buttons.css" rel="stylesheet" type="text/css">
+<link href="favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<script type="text/javascript">
+function show(elementId) { 
+ document.getElementById("add").style.display="none";
+ document.getElementById(elementId).style.display="block";
+}
+</script>
+</head>
+<body>
+	
+<header>
+	<div id="banner">
+		<div id="banner-left"> 
+				<a href="index.html"><img src="images/Logo.png" alt=""/></a>
+		</div>
+			<div id="banner-center">
+				<nav>
+					<ul>
+						<li><a href="home.html" class="navBtn">Home</a></li>
+						<li><a href="films.html" class="navBtn">Your Films</a></li>
+						<li><a href="watchlist.html" class="navBtn">Watchlist</a></li>
+						<li><a href="community.html" class="navBtn">Community</a></li>
+						<li><a href="add.html" class="selected">+ Add</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div id="banner-right">
+				<nav>
+					<ul>
+						<li><a href="#" class="navBtn">Login</a></li>
+						<li>|</li>
+						<li><a href="#" class="navBtn">Sign Up</a></li>
+					</ul>
+				</nav>
+			</div>
+	  </div>
+	</header>
+	
+	<div class="heading">
+	<h1>ADD</h1>
+	</div>
+	<div class="heading2">
+	<h1>FILMS</h1>
+	</div>
+	
+	<div id="centerBoxes">
+		<label class="field a-field a-field_a1">
+    <input class="field__input a-field__input" placeholder="e.g. Movie" required>
+    <span class="a-field__label-wrap">
+      <span class="a-field__label">Enter A Title</span>
+    </span>
+  </label>
+		<input type="date" name="dateofbirth" id="dateofbirth">
+		<button type="button" onclick="show('add');">RATE</button>
+	</div>
+	
+	
+
+	<div id="add">
+<div class="center-div">
+		<section class="imageRating">
+    		<img src="images/posterJaws.jpg" alt=""/>
+			<p>☆☆☆☆</p>
+		</section>
+	<section class="review">
+		<input type="text2" placeholder="Review">
+	</section>
+  <section class="options">
+		
+	<section class="optionsSection">
+			<input type="text3">
+			<h3>Enjoyment</h3>
+		</section>
+	<section class="optionsSection">
+			<input type="text3">
+			<h3>Script</h3>
+		</section>
+	  	<section class="optionsSection">
+			<input type="text3">
+			<h3>Acting/Characters</h3>
+		</section>
+	<section class="optionsSection">
+			<input type="text3">
+			<h3>Picture</h3>
+		</section>
+	  	<section class="optionsSection">
+			<input type="text3">
+			<h3>Plot</h3>
+		</section>
+	<section class="optionsSection">
+			<input type="text3">
+			<h3>Sound</h3>
+		</section>
+	  	</section>
+	<section class="bottom">
+		  <section class="rating">
+	  		<h2>RATING</h2>
+			  <h1>0.0</h1>
+	  </section>
+	  <section class="checkTitles">
+	    					<input type="checkbox" name="Seen In Theaters" id="check_13">
+							<label for="check_13">Seen In Theaters</label>
+						
+							<input type="checkbox" name="Re-Watch" id="check_14">
+							<label for="check_14">Re-Watch</label>
+
+  							<input type="checkbox" name="Recommend" id="check_15">
+  							<label for="check_15">Recommend</label>
+		</section>
+	</section>
+  	</div>
+	
+
+	<div class="add-button">
+	<a href="#" class="addBtn">ADD</a> 
+	</div>
+		</div>
+	
+	<footer class="footer">
+			<ul class="footerList">
+				<li><a href="#" class="footerBtn">About</a></li>
+				<li><a href="#" class="footerBtn">Help</a></li>
+		  	  	<li><a href="#" class="footerBtn">Blog</a></li>
+				<li><a href="#" class="footerBtn">Forums</a></li>
+				<li><a href="#" class="footerBtn">Privacy</a></li>
+				<li><a href="#" class="footerBtn">Terms</a></li>
+				<li><a href="#" class="footerBtn">Contact</a></li>
+			</ul>
+			<ul class="footerIcons">
+                <a href="#"><img src="images/facebook.png" alt=""/></a>
+				<a href="#"><img src="images/twitter.png" alt=""/></a>
+				<a href="#"><img src="images/instagram.png" alt=""/></a>
+			</ul>
+			<img src="images/Logo.png" alt=""/>
+			<p>© 2017 - 2019 Kino, Inc. All Rights Reserved<br>Hand Crafted in the USA</p>
+
+	</footer>
+	
+</body>
+</html>
