@@ -1,322 +1,150 @@
-@charset "utf-8";
-body{
-    font-family: proxima-nova, sans-serif;
-    font-style: normal;
-    font-weight: 100;
-    font-size: 14px;
-    background-color: #0a141e;
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
-    color: hsla(0,0%,100%,1.00);
-    cursor: default
+@font-face {
+    src: url("fonts/Product-Sans-Regular.ttf");
 }
-header {
+
+body {
+    line-height: 1.5;
+    font-family: "Product Sans";
+    width: 100%;
+    float: left;
+    background-color: #f3f3f3;
+}
+
+header  {
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #111111;
     color: #FFFFFF;
-	font-family: Proxima Nova, sans-serif;
-    font-style: normal;
-    font-weight: 100;
-    font-size: 14px;
-}
-.centerText{
-    position: absolute;
-    margin-top: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    left: 0px;
-    width: 560px;
-    height: 313px;
-    margin-left: 10%;
-}
-.centerButton{
-    position: absolute;
-    margin-top: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    right: 0;
-    top: 267px;
-    bottom: 0;
-    left: 0px;
-    width: 533px;
-    height: 76px;
-    margin-left: 10%;
-    text-align: center;
-}
-#banner {
-    width: 100%;
-    margin-top: 0px;
-    position: relative;
-    vertical-align: middle;
-    padding-bottom: 0px;
     padding-top: 0px;
-    background-image: -webkit-linear-gradient(0deg,rgba(8,17,24,0.50) 0%,rgba(24,8,8,0.50) 100%);
-    background-image: -moz-linear-gradient(0deg,rgba(8,17,24,0.50) 0%,rgba(24,8,8,0.50) 100%);
-    background-image: -o-linear-gradient(0deg,rgba(8,17,24,0.50) 0%,rgba(24,8,8,0.50) 100%);
-    background-image: linear-gradient(90deg,rgba(8,17,24,0.50) 0%,rgba(24,8,8,0.50) 100%);
     float: left;
-    -webkit-transition: all .5s ease 0s;
-    -o-transition: all .5s ease 0s;
-    transition: all .5s ease 0s;
 }
-
-#banner-left  {
-    width: 65px;
-    float: left;
-    padding-left: 10%;
-    padding-right: 1%;
-    vertical-align: middle;
+header h1  {
+    font-size: 50px;
     margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-img   {
-    width: 100%;
-	opacity: 1;
-    padding-top: 0%;
-    padding-bottom: 0%;
-    vertical-align: middle;
-    -webkit-transition: all 0.1s ease 0s;
-    -o-transition: all 0.1s ease 0s;
-    transition: all 0.1s ease 0s;
-
-}
-img:hover {
-    -webkit-opacity: .5;
-    opacity: 1;
-}
-#banner-right {
-    width: 20%;
-    float: right;
-    padding-right: 10%;
-    vertical-align: middle;
-    padding-bottom: 13px;
-    padding-top: 13px;
-    cursor: default;
-}
-#banner-right nav ul {
-    margin: 0px;
-    float: right;
-    padding: 0px;
-    vertical-align: middle;
-}
-
-nav li {
-    display: inline;
-    margin: 0px;
-    padding: 0px;
-}
-nav li a {
-    font-size: 1.00em;
-    text-decoration: none;
-    color: #cacaca;
-    padding: 10px;
-    text-indent: 0px;
-    font-weight: bold;
-}
-.navBtn {
-    display: inline-block;
-    padding-left: 12px;
-    padding-right: 12px;
-    color: #c8cacc;
-    text-decoration: none;
-    -webkit-transition: all 0.1s ease-in-out 0s;
-    -o-transition: all 0.1s ease-in-out 0s;
-    transition: all 0.1s ease-in-out 0s;
-    border-radius: 3px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-}
-.navBtn:hover {
-    background-color: #30373d;
-    color: #ffffff;
-}
-
-body h1 {
-    padding-right: 0px;
-    padding-left: 0px;
-    padding-bottom: 0px;
-    margin-top: 0px;
-    margin-right: 0px;
     margin-bottom: 0px;
-    color: rgba(255,255,255,1.00);
-    font-size: 70px;
-    text-align: left;
-    font-family: proxima-nova, sans-serif;
-    font-weight: bold;
+    font-weight: normal;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.slideshow li {
-    list-style-type: none;
+header p {
+    margin-top: 0px;
+    padding-left: 3px;
+    margin-bottom: 25px;
 }
-
-.slideshow li span {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    color: transparent;
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: none;
-    opacity: 0;
-    z-index: 0;
-    -webkit-backface-visibility: hidden;
-    -webkit-animation: imageAnimation 36s linear infinite 0s;
-    -moz-animation: imageAnimation 36s linear infinite 0s;
-    -o-animation: imageAnimation 36s linear infinite 0s;
-    -ms-animation: imageAnimation 36s linear infinite 0s;
-    animation: imageAnimation 36s linear infinite 0s;
-    list-style-type: none;
-}
-
-.slideshow, .slideshow:after {
-    width: 100%;
-    height: 100%;
-    top: 0px;
-    left: 0px;
-    margin: 0;
-    padding: 0;
-    z-index: 0;
-}
-.slideshow li div {
-    z-index: 1000;
-    position: absolute;
-    bottom: 30px;
-    left: 0px;
-    width: 100%;
+.randomize {
+    width: 30%;
+    padding-right: 20%;
+    float: right;
     text-align: center;
-    opacity: 0;
-    color: #fff;
-    -webkit-animation: titleAnimation 36s linear infinite 0s;
-    -moz-animation: titleAnimation 36s linear infinite 0s;
-    -o-animation: titleAnimation 36s linear infinite 0s;
-    -ms-animation: titleAnimation 36s linear infinite 0s;
-    animation: titleAnimation 36s linear infinite 0s;
-    text-decoration: none;
-    list-style-type: none;
+    padding-top: 80px;
 }
-
-.slideshow li:nth-child(1) span {
-    background-image: url("../images/banner2001.jpg");
-    background-position: 20% 0%;
+.randomize img {
+    width: 100%;
+    max-width: 400px;
+    max-height: 400px;
+    float: left;
+    position: relative;
 }
-.slideshow li:nth-child(2) span { 
-    background-image: url("../images/bannerBeetlejuice.jpg");
-    -webkit-animation-delay: 6s;
-    -moz-animation-delay: 6s;
-    -o-animation-delay: 6s;
-    -ms-animation-delay: 6s;
-    animation-delay: 6s; 
+#quote img   {
+    bottom: 15px;
 }
-.slideshow li:nth-child(3) span { 
-    background-image: url("../images/bannerTruman.png");
-    -webkit-animation-delay: 12s;
-    -moz-animation-delay: 12s;
-    -o-animation-delay: 12s;
-    -ms-animation-delay: 12s;
-    animation-delay: 12s; 
-}
-.slideshow li:nth-child(4) span { 
-    background-image: url("../images/bannerBladerunner1.jpg");
-    -webkit-animation-delay: 18s;
-    -moz-animation-delay: 18s;
-    -o-animation-delay: 18s;
-    -ms-animation-delay: 18s;
-    animation-delay: 18s; 
-}
-.slideshow li:nth-child(5) span {
-    background-image: url("../images/bannerBluesbrothers.jpg");
-    -webkit-animation-delay: 24s;
-    -moz-animation-delay: 24s;
-    -o-animation-delay: 24s;
-    -ms-animation-delay: 24s;
-    animation-delay: 24s;
-    background-position: 28% 0%;
-}
-.slideshow li:nth-child(6) span { 
-    background-image: url("../images/bannerT2.jpg");
-    -webkit-animation-delay: 30s;
-    -moz-animation-delay: 30s;
-    -o-animation-delay: 30s;
-    -ms-animation-delay: 30s;
-    animation-delay: 30s; 
+h5 {
+    margin: 0px;
+    font-size: 12px;
 }
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@-moz-keyframes imageAnimation { 
-    0% { opacity: 0;
-    -moz-animation-timing-function: ease-in; }
-    8% { opacity: 1;
-         -moz-animation-timing-function: ease-out; }
-    17% { opacity: 1 }
-    25% { opacity: 0 }
-    100% { opacity: 0 }
+.fill  {
+    float: left;
 }
-@-o-keyframes imageAnimation { 
-    0% { opacity: 0;
-    -o-animation-timing-function: ease-in; }
-    8% { opacity: 1;
-         -o-animation-timing-function: ease-out; }
-    17% { opacity: 1 }
-    25% { opacity: 0 }
-    100% { opacity: 0 }
+
+.nav {
+    width: 30%;
+    padding-left: 20%;
+    float: left;
+    padding-top: 80px;
+margin-top: 0px;
 }
-@-ms-keyframes imageAnimation { 
-    0% { opacity: 0;
-    -ms-animation-timing-function: ease-in; }
-    8% { opacity: 1;
-         -ms-animation-timing-function: ease-out; }
-    17% { opacity: 1 }
-    25% { opacity: 0 }
-    100% { opacity: 0 }
+.nav h4 {
+width: 90%;
+padding-right: 10%;
+padding-top: 0px;
+color: #949494;
 }
-@keyframes imageAnimation { 
-    0% { opacity: 0;
-    animation-timing-function: ease-in; }
-    8% { opacity: 1;
-         animation-timing-function: ease-out; }
-    17% { opacity: 1 }
-    25% { opacity: 0 }
-    100% { opacity: 0 }
+
+
+
+.mainBtn {
+border: none;
+outline: none;
+padding: 12px 16px;
+cursor: pointer;
+font-weight: bold;
+font-family: "Product Sans";
+margin: 0px;
+font-size: 30px;
+color: #000000;
+-webkit-transition: all 0.1s ease-in-out 0s;
+-o-transition: all 0.1s ease-in-out 0s;
+transition: all 0.1s ease-in-out 0s;
+background-color: #F3F3F3;
+text-decoration: underline;
+position: relative;
+left: -16px;
+}
+
+.mainBtn:hover {
+color: #2A6B83;
+-webkit-transition: all 0.1s ease-in-out 0s;
+-o-transition: all 0.1s ease-in-out 0s;
+transition: all 0.1s ease-in-out 0s;
+background-color: #F3F3F3;	
+}
+.mainBtn.active {
+color: black;
+-webkit-transition: all 0.1s ease-in-out 0s;
+-o-transition: all 0.1s ease-in-out 0s;
+transition: all 0.1s ease-in-out 0s;
+background-color: #F3F3F3;
+}
+.randomBtn {
+border: none;
+outline: none;
+padding: 12px 16px;
+cursor: pointer;
+font-weight: bold;
+font-family: "Product Sans";
+margin-top: 0px;
+margin-right: 0px;
+margin-left: 0px;
+margin-bottom: 15px;
+font-size: 23px;
+color: #000000;
+-webkit-transition: all 0.1s ease-in-out 0s;
+-o-transition: all 0.1s ease-in-out 0s;
+transition: all 0.1s ease-in-out 0s;
+background-color: #F3F3F3;
+text-decoration: none;
+float: left;
+width: 400px;
+}
+.randomBtn:hover {
+color: #2A6B83;
+-webkit-transition: all 0.1s ease-in-out 0s;
+-o-transition: all 0.1s ease-in-out 0s;
+transition: all 0.1s ease-in-out 0s;
+background-color: #F3F3F3;	
+}
+.randomBtn.active {
+color: black;
+-webkit-transition: all 0.1s ease-in-out 0s;
+-o-transition: all 0.1s ease-in-out 0s;
+transition: all 0.1s ease-in-out 0s;
+background-color: #F3F3F3;
+}
+h3 {
+text-align: center;
+margin-top: -385px;
 }
