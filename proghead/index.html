@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+	
+	<head>
+		<meta charset="UTF-8">
+		<title>Home</title>
+		<link rel="shortcut icon" href="favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+		<link href="css/index.css" rel="stylesheet" type="text/css">
+	</head>
+	
+	<body>
+		<header>
+			<h1>CALLING ALL PROGHEADS</h1>
+			<p>A list of 1245 Prog albums. [Progress 35%...]</p>
+		</header>
+		
+		<section class="nav">
+			
+			<a href="all.html" class="mainBtn">All Albums</a>
+			<h4>This displays all albums and their covers. Loads Slow</h4>
+			<a href="table.html" class="mainBtn">Table View</a>
+			<h4>This view allows you to sort alphabetically, by artist, date, and rating. Doesn't show album covers. Loads Fast.</h4>
+			
+		</section>
+		
+		<section class="randomize">
+			
+			<input class="randomBtn" type="button" value="Choose A Random Album" onclick="randomImg()">
+			<img src="images/random.jpg" alt=""/>
+			
+			<section class="fill">
+				<div id="quote"></div>
+			</section>
+			
+		</section>
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script  src="js/scriptindex.js"></script>
+		
+	</body>
+</html>
