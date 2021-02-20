@@ -1,0 +1,21 @@
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 20px 0px;
+    background-image: url("../images/background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.film-row {
+    display: flex;
+    height: calc(50vh - 60px);
+    padding: 20px 50px
+}
+
+.film-row img {
+    width: 19%;
+    object-fit: contain;
+    padding: 0px .5%;
+}
