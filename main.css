@@ -1,0 +1,26 @@
+body {
+    background: gray;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+header a {
+    font-size: 50px;
+    padding: 20px 50px;
+    background: black;
+    border-radius: 10px;
+    margin: 50px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.1s ease 0s;
+}
+
+header a:hover {
+    color: black;
+    background: white;
+}
