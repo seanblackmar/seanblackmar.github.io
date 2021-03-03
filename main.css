@@ -1,26 +1,56 @@
 body {
-    background: gray;
+    background: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
 }
 
-header {
+.main-site {
     display: flex;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
+    height: 50vh;
+    flex-direction: column;
 }
 
-header a {
+.main-site a {
     font-size: 50px;
     padding: 20px 50px;
-    background: black;
-    border-radius: 10px;
-    margin: 50px;
+    background: #111;
+    border-radius: 5px;
     text-decoration: none;
     color: white;
     transition: all 0.1s ease 0s;
 }
 
-header a:hover {
+.main-site p {
+    margin-top: auto;
+}
+
+.main-site a:hover {
     color: black;
-    background: white;
+    background: #999;
+}
+
+.old-site {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.old-site a {
+    font-size: 21px;
+    padding: 15px 30px;
+    background: #111;
+    border-radius: 3px;
+    margin-top: auto;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.1s ease 0s;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.old-site a:hover {
+    color: black;
+    background: #999;
 }
