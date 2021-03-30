@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="31px" viewBox="0 0 19 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Werk-1" transform="translate(-592.000000, -891.000000)" stroke="#A58861">
+            <g id="Group-3" transform="translate(593.000000, 891.000000)">
+                <rect id="Rectangle" x="3" y="24.3250885" width="11" height="6"/>
+                <path d="M2.97216797,23.8250885 C3.10986328,20.7036692 2.11914062,18.0407461 2.66453526e-15,15.836319 C2.66453526e-15,15.836319 2.82405599,10.6543528 8.47216797,0.290420532" id="Path-8"/>
+                <path d="M11.472168,23.8250885 C11.6098633,20.7036692 10.6191406,18.0407461 8.5,15.836319 C8.5,15.836319 11.324056,10.6543528 16.972168,0.290420532" id="Path-8" transform="translate(12.736084, 12.057755) scale(-1, 1) translate(-12.736084, -12.057755) "/>
+                <path d="M8.52594757,0.591414185 L8.52594757,14.3250885" id="Path-10"/>
+                <rect id="Rectangle" x="7" y="14.3250885" width="3" height="3" rx="1.5"/>
+                <polyline id="Path-9" points="8.83139038 0.917739868 8.49 0.265088501 8.12609863 0.917739868"/>
+            </g>
+        </g>
+    </g>
+</svg>

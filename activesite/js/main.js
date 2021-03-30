@@ -65,42 +65,9 @@ $(function () {
 
 
 
-// Filter JS
+// Fade In
 
-const filters = document.querySelectorAll('.filter');
-
-filters.forEach(filter => { 
-
-  filter.addEventListener('click', function() {
-
-    let selectedFilter = filter.getAttribute('data-filter');
-    let itemsToHide = document.querySelectorAll(`.projects .project:not([data-filter='${selectedFilter}'])`);
-    let itemsToShow = document.querySelectorAll(`.projects [data-filter='${selectedFilter}']`);
-
-    if (selectedFilter == 'all') {
-      itemsToHide = [];
-      itemsToShow = document.querySelectorAll('.projects [data-filter]');
-    }
-
-    itemsToHide.forEach(el => {
-      el.classList.add('hide');
-      el.classList.remove('show');
-    });
-
-    itemsToShow.forEach(el => {
-      el.classList.remove('hide');
-      el.classList.add('show'); 
-    });
-
-  });
+$(window).load(function () {
+    $("body").removeClass("preload");
 });
 
-var header = document.getElementById("filters");
-var btns = header.getElementsByClassName("filter");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-  var current = document.getElementsByClassName("active");
-  current[0].className = current[0].className.replace(" active", "");
-  this.className += " active";
-  });
-}
