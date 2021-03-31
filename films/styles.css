@@ -1,0 +1,212 @@
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background: #43C6AC;
+    background: -webkit-linear-gradient(25deg, #191654, #43C6AC);
+    background: linear-gradient(25deg, #191654, #43C6AC);
+    font-family: 'Roboto', sans-serif;
+
+    animation: fadeInAnimation ease-out 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+.preload {
+    -webkit-transition: 0s !important;
+    -moz-transition: 0s !important;
+    -ms-transition: 0s !important;
+    -o-transition: 0s !important;
+  }
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    min-height: 100vh;
+    padding: 0px 20px;
+    position: relative;
+}
+
+.films {
+    max-width: 1000px;
+}
+
+.film-row {
+    display: flex;
+    align-items: center;
+}
+
+.film {
+    width: calc((100% / 5) - 20px);
+    margin: 10px;
+    float: left;
+}
+
+.film a {
+    display: block;
+}
+
+.film img {
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, .3);
+}
+
+.film img:hover {
+    border: 1px solid #fff;
+}
+
+.film-details {
+    height: 0px;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    width: calc(100% - 100px);
+    margin: auto;
+    top: 0px;
+    left: 0px;
+    bottom: 4px;
+    right: 0;
+    max-width: 950px;
+    z-index: 99;
+    box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, .3);
+    opacity: 0;
+}
+
+#film1-d, 
+#film2-d,
+#film3-d, 
+#film4-d,
+#film5-d, 
+#film6-d,
+#film7-d, 
+#film8-d,
+#film9-d,
+#film10-d {
+    color: transparent;
+    display: flex;
+    transition: all ease-in-out .3s;
+    transition-delay: .3s;
+    align-items: center;
+    line-height: 1.5;
+}
+
+.spacer {
+    height: 1px;
+    width: calc(100% - 60px);
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.35);
+    margin: 40px 30px;
+}
+
+.rating {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 0;
+}
+
+.details-rating {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35px;
+}
+.details-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 15px;
+    width: 40px;
+}
+
+.year {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin: 0;
+    font-size: 14px;
+}
+
+.star{
+    margin: 0;
+    height: 30px;
+}
+
+.description {
+    width: calc(100% - 75px)
+}
+
+/* --- Hovers --- */
+
+#film1:hover ~ #film1-d {
+    color: black;
+    padding: 35px 15px;
+    opacity: 1;
+    transition-delay: 0s;
+}
+#film2:hover ~ #film2-d {
+    color: black;
+    padding: 35px 15px;
+    opacity: 1;
+    transition-delay: 0s;
+}
+#film3:hover ~ #film3-d {
+    color: black;
+    padding: 35px 15px;
+    opacity: 1;
+    transition-delay: 0s;
+}
+#film4:hover ~ #film4-d {
+    color: black;
+    padding: 35px 15px;
+    opacity: 1;
+    transition-delay: 0s;
+}
+#film5:hover ~ #film5-d {
+    color: black;
+    padding: 35px 15px;
+    opacity: 1;
+    transition-delay: 0s;
+}
+#film6:hover ~ #film6-d {
+    color: black;
+    padding: 35px 15px;
+    opacity: 1;
+    transition-delay: 0s;
+}
+#film7:hover ~ #film7-d {
+    color: black;
+    padding: 35px 15px;
+    opacity: 1;
+    transition-delay: 0s;
+}
+#film8:hover ~ #film8-d {
+    color: black;
+    padding: 35px 15px;
+    opacity: 1;
+    transition-delay: 0s;
+}
+#film9:hover ~ #film9-d {
+    color: black;
+    padding: 35px 15px;
+    opacity: 1;
+    transition-delay: 0s;
+}
+#film10:hover ~ #film10-d {
+    color: black;
+    padding: 35px 15px;
+    opacity: 1;
+    transition-delay: 0s;
+}

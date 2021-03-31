@@ -1,0 +1,141 @@
+@font-face {
+    src: url("fonts/Product-Sans-Regular.ttf");
+}
+
+body {
+    line-height: 1.5;
+    font-family: "Product Sans";
+    width: 100%;
+    float: left;
+    background-color: #121212;
+}
+
+header  {
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #1D1D1D;
+    color: #e1e1e1;
+    padding-top: 0px;
+    float: left;
+}
+header h1  {
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-weight: normal;
+}
+
+header p {
+    margin-top: 0px;
+    padding-left: 3px;
+    margin-bottom: 25px;
+}
+.randomize {
+    width: 30%;
+    padding-right: 20%;
+    float: right;
+    text-align: center;
+    padding-top: 80px;
+    background-color: #121212;
+}
+.randomize img {
+    width: 100%;
+    max-width: 400px;
+    max-height: 400px;
+    float: left;
+    position: relative;
+}
+#quote img   {
+    bottom: 15px;
+}
+h5 {
+    margin: 0px;
+    font-size: 12px;
+}
+
+
+
+
+.fill  {
+    float: left;
+}
+
+.nav {
+    width: 30%;
+    padding-left: 20%;
+    float: left;
+    padding-top: 90px;
+    margin-top: 0px;
+    background-color: #121212;
+}
+.nav h4 {
+    width: 90%;
+    padding-right: 10%;
+    padding-top: 0px;
+    color: #e1e1e1;
+    font-weight: normal;
+}
+
+
+
+.mainBtn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: "Product Sans";
+    margin: 0px;
+    font-size: 20px;
+    color: #e1e1e1;
+    -webkit-transition: all 0.1s ease-in-out 0s;
+    -o-transition: all 0.1s ease-in-out 0s;
+    transition: all 0.1s ease-in-out 0s;
+    text-decoration: underline;
+    position: relative;
+    left: -16px;
+    border-radius: 0px;
+}
+
+.mainBtn:hover {
+    -webkit-transition: all 0.1s ease-in-out 0s;
+    -o-transition: all 0.1s ease-in-out 0s;
+    transition: all 0.1s ease-in-out 0s;
+    background-color: #373737;
+    border-radius: 0px;
+}
+.randomBtn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: "Product Sans";
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #e1e1e1;
+    -webkit-transition: all 0.1s ease-in-out 0s;
+    -o-transition: all 0.1s ease-in-out 0s;
+    transition: all 0.1s ease-in-out 0s;
+    text-decoration: none;
+    float: left;
+    width: 400px;
+    background-color: #121212;
+}
+.randomBtn:hover {
+-webkit-transition: all 0.1s ease-in-out 0s;
+-o-transition: all 0.1s ease-in-out 0s;
+transition: all 0.1s ease-in-out 0s;
+background-color: #373737;	
+}
+
+h3 {
+    text-align: center;
+    margin-top: -385px;
+    width: 400px;
+    color: #E1E1E1;
+}
