@@ -30,6 +30,7 @@ body {
 }
 
 .preload {
+    transition: 0s;
     -webkit-transition: 0s !important;
     -moz-transition: 0s !important;
     -ms-transition: 0s !important;
@@ -763,7 +764,7 @@ footer  {
   
 .dropdown-content a {
     color: black;
-    padding: 12px 20px;
+    padding: 10px 20px;
     text-decoration: none;
     display: flex;
     font-size: 14px;
