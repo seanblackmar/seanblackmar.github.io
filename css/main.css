@@ -457,12 +457,24 @@ header {
 
 
 
+.under-construction {
+    display: none;
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+    background-color: darkred;
+    color: white;
+}
 
 
 
 
+@media only screen and (max-width: 800px) {
 
-
+    .under-construction {
+        display: block;
+    }
+}
 
 
 
