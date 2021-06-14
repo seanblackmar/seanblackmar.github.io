@@ -622,9 +622,9 @@ footer  {
 
 .intro-left {
     display: flex;
-    flex-direction: column;
+    /*! flex-direction: column; */
     /*! width: 430px; */
-    padding-bottom: 60px;
+    padding-bottom: 50px;
 }
 
 .intro-left-zigzag {
