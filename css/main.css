@@ -85,21 +85,6 @@ body {
     -o-transition: 0s !important;
 }
 
-_:-ms-fullscreen, :root .ie-only { display: block; }
-_:-ms-fullscreen, :root body { overflow: hidden; }
-
-.ie-only {
-    width: 100vw;
-    height: 100vh;
-    background-color: red;
-    display: none;
-    z-index: 99;
-    position: absolute;
-    color: black;
-    margin: auto;
-    text-align: center;
-}
-
 /* ----- UNDER CONSTRUCTION ----- */
 
 .update {
@@ -267,7 +252,22 @@ _:-ms-fullscreen, :root body { overflow: hidden; }
     /*! padding: 10px 20px; */
     /*! border-width: 1px; */
     /*! border-image: linear-gradient(45deg,#0037c5,#0064ff) 1; */
-	}
+}
+
+.playButtonSeperator {
+    display: flex;
+    align-items: center;
+}
+
+.viewResume {
+    color: #fff;
+    margin: 0px;
+    padding: 3px 0px 0px 0px;
+    font-weight: 500;
+	font-size: 15px;
+    letter-spacing: .8px;
+    text-decoration: none;
+}
 
 .playButton:hover {
     /*! background-color: rgba(255, 255, 255, 0.15); */
